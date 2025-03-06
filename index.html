@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Строительство частных домов</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header_wrapper">
+          <div class="header_logo">
+            <a href="" class="header_logo-link">
+              <img
+                src="/img/logo.png"
+                alt="Строительство частных домов"
+                class="header_logo-pic"
+              />
+            </a>
+          </div>
+          <nav class="header_nav">
+            <ul class="header_list">
+              <li class="header_item">
+                <a href="#!" class="header_link">Фотоотчеты с объектов</a>
+              </li>
+              <li class="header_item">
+                <a href="#!" class="header_link">Проекты домов</a>
+              </li>
+              <li class="header_item">
+                <a href="#!" class="header_link">Отзывы клиентов</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="wrapper">
+          <h1 class="intro_title">
+            Мы занимемся строительством частных домов в г.Челябинске и
+            Челябинской области и предоставляем полный перечень услуг.
+          </h1>
+          <p class="intro_subtitle">
+            Хотите построить загородный дом площадью 100м2? Не знаете с чего
+            начать? Укажите сумму в рублях которую планируете потратить и мы Вам
+            поможем с выбором:
+          </p>
+          <form class="help">
+            <fieldset class="help_wrap">
+              <input
+                type="number"
+                id="fieldText"
+                placeholder="Укажите сумму в рублях"
+              />
+              <button id="btСalculation">Помощь с выбором</button>
+              <p class="result">
+                Результат:
+                <output type="text" id="fieldResult"></output>
+              </p>
+            </fieldset>
+          </form>
+          <div class="contact">
+            <nav class="contact_data">
+              <div class="contact_title">Мы всегда на связи:</div>
+              <li class="item_yotube">
+                <a href="https:youtube.com/@Allstroy" target="_blank">
+                  <button class="btn_youtube">Наш Youtbe канал</button>
+                </a>
+              </li>
+              <li class="item_telefon">+79876543221</li>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
