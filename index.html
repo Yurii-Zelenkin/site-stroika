@@ -15,7 +15,7 @@
           <div class="header_logo">
             <a href="" class="header_logo-link">
               <img
-                src="img/logo (2).svg"
+                src="./img/trace (1).svg"
                 alt="Строительство частных домов"
                 class="header_logo-pic"
               />
@@ -42,7 +42,7 @@
       <section class="intro">
         <div class="wrapper">
           <h1 class="intro_title">
-            Мы занимемся строительством частных домов в г.Челябинске и
+            Мы занимаемся строительством частных домов в г.Челябинске и
             Челябинской области и предоставляем полный перечень услуг.
           </h1>
           <p class="intro_subtitle">
@@ -54,26 +54,34 @@
             <fieldset class="help_wrap">
               <input
                 type="number"
-                id="fieldText"
-                placeholder="Укажите сумму в рублях"
+                class="fieldText"
+                placeholder="Укажите сумму в рублях."
+                required
               />
-              <button id="btСalculation">Помощь с выбором</button>
-              <p class="result">
+              <button class="btCalculation">Помощь с выбором</button>
+              <p class="help">
                 Результат:
-                <output type="text" id="fieldResult"></output>
+                <output type="text" class="fieldResult"></output>
               </p>
             </fieldset>
           </form>
           <div class="contact">
-            <nav class="contact_data">
+            <div class="contact_data">
               <div class="contact_title">Мы всегда на связи:</div>
-              <li class="item_yotube">
-                <a href="https://youtube.com/@Allstroy" target="_blank">
-                  <button class="btn_youtube">Наш Youtube канал</button>
-                </a>
-              </li>
-              <li class="item_telefon">+79876543221</li>
-            </nav>
+              <ul class="utbTel">
+                <li class="item_youtube">
+                  <a
+                    href="https://youtube.com/@Allstroy"
+                    target="_blank"
+                    class="btn_youtube"
+                    >Наш Youtube канал</a
+                  >
+                </li>
+                <li class="item_telefon">
+                  <a href="tel:+79876543221">+7 (987) 65-43-221</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
